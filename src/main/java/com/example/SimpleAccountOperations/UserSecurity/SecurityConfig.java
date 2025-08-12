@@ -36,10 +36,6 @@ public class SecurityConfig {
                 )
                 .build();
     }
-//    @Bean
-//    public PasswordEncoder passwordEncoder(){
-//        return NoOpPasswordEncoder.getInstance();
-//    }
 
     @Bean
     public PasswordEncoder passwordEncoder(){
